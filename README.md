@@ -40,7 +40,7 @@
 ## [Hamibot](https://hamibot.com/)
 如果知道这款软件的小伙伴可以直接跳到配置，这是它的[官网](https://hamibot.com/)https://hamibot.com，里面有详细的介绍， 目前这款软件只适用于安卓系统
 ## 安装脚本
-在手机上安装完成Hamibot之后，在[脚本市场](https://hamibot.com/marketplace)搜索["云岭先锋"](https://hamibot.com/marketplace)并安装脚本
+在手机上安装完成Hamibot之后，在[脚本市场](https://hamibot.com/marketplace)搜索["云岭先锋"](https://hamibot.com/marketplace/fBLh2)并安装脚本
 ## 满足条件
 请确保手机满足以下条件
 1. 打开无障碍服务权限、程序保持后台运行
