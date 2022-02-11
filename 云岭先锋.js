@@ -144,7 +144,7 @@ function recent_key_study() {
     sleep_random_time(500);
 
     let tmp = className("android.view.View").depth(16).find();
-    if (tmp[50].text() === '已获10先锋值/每天最多10先锋值') {
+    if (tmp[56].text() === '已获10先锋值/每天最多10先锋值') {
         return;
     }
 
@@ -174,7 +174,8 @@ function recent_key_study() {
 // 党员随身听
 function walkman() {
     sleep_random_time(500);
-    if (!textContains('/每天最多10先锋值/每月最多310先锋值').exists()) {
+    let tmp = className("android.view.View").depth(16).find();
+    if (tmp[61].text() === '已获10先锋值/每天最多10先锋值') {
         return;
     }
     toast("党员随身听");
@@ -221,7 +222,7 @@ app.launchApp('云岭先锋');
 me();
 login();
 share();
-swipe(500, 2000, 500, 500, random_time(500));
+swipe(500, 2100, 500, 500, random_time(500));
 micro_party_lecture_study();
 micro_video_view();
 walkman();
